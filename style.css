@@ -1,0 +1,191 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.leftpart{
+  width: 20%;
+  height: 100%;
+  position: relative;
+}
+.leftpart .text{
+  position: absolute;
+  left: 220px;
+  top: 400px;
+  transform: translate(-50%,-50%);
+  color: white;
+  background-color: rgba(67, 67, 67, 0.668);
+  font-family: "Norse";
+  font-size: 80px;
+  width: 560px;
+  text-align: center;
+}
+.toppart{
+  display: flex;
+  width: 100px;
+  height: auto;
+  justify-content: flex-end;
+  
+}
+
+
+  
+
+.img{
+  width: 500px;
+  height: 100%;
+  
+
+}
+.container .toppart{
+  display: flex;
+  margin-left: 190px;
+  width: 1026px;
+  height: 300px;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(207, 207, 207);
+}
+.container{
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+  
+}
+.form{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.norse-text{
+  color: black;
+  margin: 0;
+}
+h1{
+  margin-bottom: 30px;
+}
+.rightpart{
+  display: flex;
+  flex-direction: column;
+}
+.middlepart{
+  
+  margin-right: 0px;
+  width: 100px;
+  top: 0px;
+  height: 300px;
+  position: relative;
+  right: -196px;
+  width: 84%;
+  box-shadow: 2px 2px 2px 2px rgba(101, 101, 101, 0.619);
+  display: flex;
+  flex-direction: row;
+
+}
+.middle{
+  margin: auto 0px;
+  font-size: 30px;
+  width: 1000px;
+  position: absolute;
+  top: 10px;
+}
+.left{
+  display: flex;
+  flex-direction: column;   
+  width: 50%;
+  margin-top: 100px;
+  margin-left: 80px;
+
+  
+}
+.rigth{
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.firstName{
+  width: 200px;
+  height: 30px;
+  border: 1px solid rgb(115, 166, 211);
+  margin-bottom: 10px;
+  padding: 5px;
+  border-radius: 5px;
+}
+.email{
+  width: 200px;
+  height: 30px;
+  border: 1px solid rgb(115, 166, 211);
+  margin-bottom: 10px;
+  padding: 5px;
+  border-radius: 5px;
+}
+.password{
+  width: 200px;
+  height: 30px;
+  border: 1px solid rgb(115, 166, 211);
+  margin-bottom: 10px;
+  padding: 5px;
+  border-radius: 5px;
+}
+.lastName{
+  width: 200px;
+  height: 30px;
+  border: 1px solid rgb(115, 166, 211);
+  margin-bottom: 10px;
+  padding: 5px;
+  border-radius: 5px;
+  
+}
+.phoneNumber{
+  width: 200px;
+  height: 30px;
+  border: 1px solid rgb(115, 166, 211);
+  margin-bottom: 10px;
+  padding: 5px;
+  border-radius: 5px;
+  
+}
+.confirmPassword{
+  width: 200px;
+  height: 30px;
+  border: 1px solid rgb(115, 166, 211);
+  padding: 5px;
+  border-radius: 5px;
+}
+.left p{
+  font-size: 13px;
+  font-weight: bold;
+}
+.rigth p{
+  font-size: 13px;
+  font-weight: bold;
+}
+.bottompart{
+  
+  margin-left: 278px;
+  margin-top: 30px;
+  margin-right: 0;
+}
+.bottompart .top{
+  margin-bottom: 23px;
+}
+.button{
+  background-color: rgb(51, 87, 0);
+  color: white;
+  width: 250px;
+  height: 40px;
+  border-radius: 15px;
+  font-size: 18px;
+}
+.bottom{
+  font-size: 18px;
+}
+.button:hover{
+  background-color: rgb(64, 110, 0);
+}
+.button:active{
+  background-color: rgb(79, 136, 0);
+}
